@@ -114,12 +114,57 @@ useSeoMeta({
   background-image:
     linear-gradient(to right, rgb(var(--color-gray-200)) 1px, transparent 1px),
     linear-gradient(to bottom, rgb(var(--color-gray-200)) 1px, transparent 1px);
+  animation: move-background 5s linear infinite;
+  transition: background-image 0.3s ease-in-out;
 }
+
 .dark {
   .landing-grid {
     background-image:
       linear-gradient(to right, rgb(var(--color-gray-800)) 1px, transparent 1px),
       linear-gradient(to bottom, rgb(var(--color-gray-800)) 1px, transparent 1px);
+    animation: move-background 5s linear infinite;
   }
 }
+
+@keyframes move-background {
+  0% {
+    background-position: 0 0, 0 0;
+  }
+  100% {
+    background-position: 100px 100px, 100px 100px;
+  }
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.landing-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.landing-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+.transition-all {
+  transition: all 0.4s ease-in-out;
+}
 </style>
+
