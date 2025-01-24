@@ -10,7 +10,9 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxthq/studio',
     '@vueuse/nuxt',
-    'nuxt-og-image'
+    'nuxt-og-image',
+    '@nuxtjs/seo',
+    '@zadigetvoltaire/nuxt-gtm'
   ],
 
   devtools: {
@@ -47,7 +49,6 @@ export default defineNuxtConfig({
   },
 
   hooks: {
-    // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
     'components:extend': (components) => {
       const globals = components.filter(c => ['UButton'].includes(c.pascalName))
 
@@ -60,6 +61,48 @@ export default defineNuxtConfig({
       stylistic: {
         commaDangle: 'never',
         braceStyle: '1tbs'
+      }
+    }
+  },
+
+  gtm: {
+    id: 'GTM-56T26PH5',
+    queryParams: {
+      gtm_auth: 'AB7cDEf3GHIjkl-MnOP8qr',
+      gtm_preview: 'env-4',
+      gtm_cookies_win: 'x',
+    },
+    defer: false,
+    compatibility: false,
+    nonce: '2726c7f26c',
+    enabled: true,
+    debug: false,
+    loadScript: true,
+    enableRouterSync: true,
+    ignoredViews: ['homepage'],
+    trackOnNextTick: false,
+    devtools: false,
+  },
+
+  runtimeConfig: {
+    public: {
+      gtm: {
+        id: 'GTM-56T26PH5',
+        queryParams: {
+          gtm_auth: 'AB7cDEf3GHIjkl-MnOP8qr',
+          gtm_preview: 'env-4',
+          gtm_cookies_win: 'x',
+        },
+        defer: false,
+        compatibility: false,
+        nonce: '2726c7f26c',
+        enabled: true,
+        debug: false,
+        loadScript: true,
+        enableRouterSync: true,
+        ignoredViews: ['homepage'],
+        trackOnNextTick: false,
+        devtools: false,
       }
     }
   }
