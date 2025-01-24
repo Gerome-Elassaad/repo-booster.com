@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const colorMode = useColorMode()
 
 const color = computed(() => colorMode.value === 'dark' ? '#111827' : 'white')
@@ -7,26 +8,41 @@ useHead({
   meta: [
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    { key: 'theme-color', name: 'theme-color', content: color }
+    { name: 'theme-color', content: color.value },
+    { property: 'og:title', content: 'Repo-Booster - Supercharge Your Git Project Today' },
+    { property: 'og:description', content: 'Repo-Booster is a powerful tool to boost your GitHub repository\'s visibility and engagement.' },
+    { property: 'og:image', content: 'https://repo-booster.com/Post.png' },
+    { property: 'og:site_name', content: 'Repo-Booster' },
+    { property: 'og:url', content: 'https://repo-booster.com' },
+    { property: 'twitter:title', content: 'Repo-Booster - Supercharge Your Git Project Today' },
+    { property: 'twitter:description', content: 'Repo-Booster is a powerful tool to boost your GitHub repository\'s visibility and engagement.' },
+    { property: 'twitter:image', content: 'https://repo-booster.com/Post.png' },
+    { name: 'twitter:card', content: 'summary_large_image' }
   ],
-  link: [
-    { rel: 'icon', href: '/favicon.ico' }
-  ],
+  link: [{ rel: 'icon', href: '/favicon.ico' }],
   htmlAttrs: {
-    lang: 'en'
+    lang: 'en',
+    class: colorMode.value === 'dark' ? 'dark' : 'light'
   }
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt UI Pro - SaaS template',
-  ogImage: 'https://saas-template.nuxt.dev/social-card.png',
-  twitterImage: 'https://saas-template.nuxt.dev/social-card.png',
+  titleTemplate: '%s - Repo-Booster - Enhance GitHub Repository Visibility & SEO for Growth',
+  description: 'Your Specialized AI Agent For Content, Marketing & Growth. SEO done for you with your own personal AI assistant an SEO expert at your fingertips.',
+  ogSiteName: 'Repo-Booster',
+  ogImage: 'https://repo-booster.com/social-card.png',
+  ogTitle: 'Repo-Booster - Supercharge Your Git Project Today',
+  ogDescription: 'Unlock data to make effective decisions across digital marketing. SEO, content marketing, PPC, digital PR, and more.',
+  ogUrl: 'https://repo-booster.com',
+  twitterTitle: 'Repo-Booster - Supercharge Your Git Project Today',
+  twitterDescription: 'Repo-Booster boosts GitHub repository visibility and engagement with SEO, analytics, and automation tools.',
+  twitterImage: 'https://repo-booster.com/og-image.png',
   twitterCard: 'summary_large_image'
 })
 </script>
 
 <template>
-  <div>
+  <div class="min-h-screen w-full bg-custom-dark bg-cover bg-center">
     <NuxtLoadingIndicator />
 
     <NuxtLayout>
