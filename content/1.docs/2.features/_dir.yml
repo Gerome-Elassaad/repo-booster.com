@@ -1,0 +1,30 @@
+title: Features Overview
+items:
+  - name: Features Overview
+    path: features
+  - name: AI Chat
+    path: ai-chat
+  - name: Backlinks Tools
+    path: backlinks
+  - name: Google Integration
+    path: google-projects
+  - name: Keyword Research
+    path: keyword-research
+  - name: Pricing
+    path: pricing
+  - name: Profile
+    path: profile
+  - name: Projects
+    path: projects
+  - name: SeoCode
+    path: seo-code
+  - name: SerpTool
+    path: serp-tool
+  - name: Settings
+    path: settings
+  - name: SiteAudit
+    path: site-audit
+  - name: SiteAuditResults
+    path: site-audit-results
+  - name: Templates
+    path: templates

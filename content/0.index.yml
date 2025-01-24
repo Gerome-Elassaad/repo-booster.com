@@ -1,144 +1,178 @@
-title: Nuxt UI Pro - SaaS template
-description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.
-navigation: false
+title: Your Specialized AI Agent For Content, Marketing & Growth
+description: SEO done for you with your own personal AI assistant, an SEO expert at your fingertips.
+keywords: [AI, AI tools, keyword tools, SEO tool, keyword tracking, search engine optimization, website ranking, competitor analysis, traffic growth, AI automation, AI workflow, SERP, SEO platform, SEO analytics, SEMrush, site optimization, backlink checkers, seo chat bot, seo assistant, ai automation]
+navigation: {}
+
 hero:
-  title: Build your SaaS in seconds
-  description: This template demonstrates most of Nuxt UI Pro's components. It's a great starting point to build your own SaaS.
+  title: Next Generation SEO Has Arrived
+  description: SEO done for you with your own personal AI assistant, an SEO expert at your fingertips.
   headline:
-    label: Made with Nuxt UI Pro
-    to: https://ui.nuxt.com/pro
+    label: The Future of SEO
+    to: https://github.com/repo-booster
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Get started
-      to: '/signup'
+    - label: API Docs
+      to: https://docs.repo-booster.com
       size: xl
       color: black
-      icon: i-heroicons-arrow-right-20-solid
+      icon: i-heroicons-arrow-top-right-on-square
       trailing: true
-    - label: Use this template
-      icon: i-simple-icons-github
+    - label: Start Free Trial
+      to: https://app.repo-booster.com/
       size: xl
-      color: gray
-      to: https://github.com/nuxt-ui-pro/saas
-      target: _blank
+      color: black
+      icon: i-heroicons-currency-dollar
+      trailing: true
+
+logos:
+  title: Trusted by the world's best
+  icons:
+    - i-simple-icons-amazonwebservices
+    - i-simple-icons-openai
+    - i-simple-icons-googlesearchconsole
+    - i-simple-icons-github
+    - i-simple-icons-digitalocean
+
 sections:
-  - title: The power of our service
-    description: Aliqua labore laboris fugiat. Reprehenderit exercitation eu commodo. Officia nostrud sit et aliqua ea ex sunt minim incididunt sunt.
+  - title: The Power of Our Service
+    description: Discover the advantages of using Repo-Booster's cutting-edge AI-driven SEO tools and services.
     id: features
     align: left
     features:
       - name: Easy to use
-        description: Id laborum laboris duis nostrud excepteur ut velit.
-        icon: i-heroicons-cog
-      - name: Reliable
-        description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
-        icon: i-heroicons-check
-      - name: Secure
-        description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing.
+        description: Intuitive and user-friendly interface to help you take control of your SEO effortlessly.
+        icon: i-heroicons-check-badge
+      - name: Real AI-powered SEO Automations
+        description: Automate your SEO tasks and improve performance with intelligent AI optimizations.
+        icon: i-heroicons-bolt
+      - name: Premium Datasets
+        description: Access proprietary, custom-built data sets, tailored to your needs.
         icon: i-heroicons-lock-closed
+      - name: A Plan for Every Need
+        description: Our flexible pricing plans are designed to cater to individuals, small teams, and large organizations.
+        icon: i-heroicons-currency-dollar
     links:
-      - label: Explore components
-        to: /pro/components
+      - label: Explore Features
+        to: /features
         color: gray
         icon: i-heroicons-arrow-right-20-solid
         trailing: true
         size: md
         class: ml-8
-  - title: The speed of our service
-    description: Cillum sint enim excepteur ut deserunt qui nisi in deserunt in. Deserunt aliquip quis aliquip eu quis ex velit velit nostrud sit.
+
+  - title: Affordable & Scalable SEO Solutions
+    description: Whether you're an individual developer or a large organization, Repo-Booster provides scalable and cost-effective SEO tools.
     align: right
     features:
-      - name: Fast
-        description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod.
+      - name: Fast & Efficient
+        description: Accelerate your SEO performance with tools that work quickly and effectively.
         icon: i-heroicons-rocket-launch
-      - name: Affordable
-        description: Reprehenderit fugiat elit in do ipsum ut pariatur.
-        icon: i-heroicons-currency-dollar
       - name: Scalable
-        description: Lorem deserunt et eiusmod. Ea in consectetur minim officia.
+        description: Expand and optimize your SEO strategy as your business grows.
         icon: i-heroicons-chart-bar
     links:
-      - label: Learn more
+      - label: Learn More
         to: /pro/guide/content
         color: gray
         icon: i-heroicons-arrow-right-20-solid
         trailing: true
         size: md
         class: ml-8
+
 features:
-  title: Why choose our service?
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  title: Why Choose Repo-Booster?
+  description: Discover why Repo-Booster is the preferred SEO tool for developers, marketers, and content creators.
   items:
-    - title: Easy to use
-      description: Id laborum laboris duis nostrud excepteur ut velit nulla magna Lorem proident non.
-      icon: i-heroicons-cog
-    - title: Reliable
-      description: Magna Lorem ex cillum fugiat ad enim aute irure sit duis minim.
-      icon: i-heroicons-check
-    - title: Secure
-      description: Proident nostrud excepteur sint ut culpa consectetur aute adipisicing non anim ullamco.
+    - title: Easy to Use
+      description: Simple and effective UI to help you achieve SEO success with ease.
+      icon: i-heroicons-check-badge
+    - title: Real AI-powered SEO Automations
+      description: Leverage AI for automated, data-driven SEO optimizations.
+      icon: i-heroicons-bolt
+    - title: Premium Data Sets
+      description: No third-party datasets; only proprietary, high-quality data.
       icon: i-heroicons-lock-closed
-    - title: Fast
-      description: Qui reprehenderit nostrud dolore nisi ad fugiat labore eiusmod sint aliquip nisi voluptate.
-      icon: i-heroicons-rocket-launch
     - title: Affordable
-      description: Reprehenderit fugiat elit in do ipsum ut pariatur.
+      description: Unlock powerful SEO tools at competitive prices.
       icon: i-heroicons-currency-dollar
-    - title: Scalable
-      description: Lorem deserunt et eiusmod. Ea in consectetur minim officia ullamco enim deserunt est.
+    - title: SEO Optimizer
+      description: Optimize your GitHub repositories to rank better on search engines.
       icon: i-heroicons-chart-bar
+    - title: Scalable
+      description: A plan for every need, whether you're an individual or part of a large team.
+      icon: i-heroicons-chart-bar
+
 testimonials:
   headline: Testimonials
-  title: What our customers are saying.
-  description: Proident sunt exercitation minim laborum enim laboris labore esse.
+  title: What Our Customers Are Saying
+  description: Hear from developers who have successfully grown their projects using Repo-Booster.
   items:
-    - quote: Nostrud tempor sunt fugiat. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip.
+    - quote: Repo-Booster helped my repository gain visibility and increased stars by 40% in just a month!
       author:
-        name: Rose Roberson
-        description: CEO at Company
+        name: Nathan Hammond
+        description: CEO at Aptitude Audits
         avatar:
           src: https://i.pravatar.cc/120?img=1
           loading: lazy
-    - quote: Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation.
+    - quote: The social media automation feature is a game-changer. It saves so much time!
       author:
-        name: Chace Rodgers
-        description: CEO at Company
+        name: Emily Cook
+        description: Senior Full Stack Developer
         avatar:
           src: https://i.pravatar.cc/120?img=7
           loading: lazy
-    - quote: Id duis velit enim officia ad nisi incididunt magna ex dolor minim deserunt dolor. Esse incididunt cillum nostrud esse do quis amet labore amet nulla eiusmod amet nulla Lorem. Incididunt ex voluptate irure officia laboris ea proident est qui.
+    - quote: The star growth tracker keeps me motivated and helps me set realistic goals for my project.
       author:
-        name: Cornelius Sheppard
-        description: CEO at Company
+        name: Cameron Sheppard
+        description: Lead Developer at Data Lock Solutions
         avatar:
           src: https://i.pravatar.cc/120?img=3
           loading: lazy
-    - quote: Velit consectetur in adipisicing culpa eiusmod commodo eu ex dolore. Officia irure nisi dolor dolore velit fugiat. Aliqua sint aliqua aute elit eu sunt.
+    - quote: Repo-Booster showed me how much a proper README SEO could impact my project.
       author:
-        name: Destinee Woods
-        description: CEO at Company
+        name: Destinee Edwards
+        description: Senior Software Engineer
         avatar:
           src: https://i.pravatar.cc/120?img=5
           loading: lazy
-    - quote: Proident quis deserunt qui ex exercitation veniam id Lorem est cupidatat ipsum irure aliquip ad.
+    - quote: I love the fact that Repo-Booster automatically creates SEO-based posts based on the latest repo updates.
       author:
-        name: Kaleb Mccormick
-        description: CEO at Company
+        name: Kyle Mondane
+        description: Open Source Developer
         avatar:
           src: https://i.pravatar.cc/120?img=8
           loading: lazy
-    - quote: Magna officia quis ea ea in officia non voluptate ipsum culpa do labore sunt. Aute est dolore commodo sint officia ad laboris dolor magna aliquip exercitation tempor commodo.
+    - quote: Repo-Booster is definitely going to help future developers grow their projects.
       author:
-        name: Jazmin Mccall
-        description: CEO at Company
+        name: Hayley Richardson
+        description: Junior Full Stack Developer
         avatar:
           src: https://i.pravatar.cc/120?img=9
           loading: lazy
+
 cta:
-  title: Get started today
-  description: Nisi mollit id aliquip sunt est laborum sit sit.
+  title: Get Started Today
+  description: There's no better time to grow your project's audience than right now.
   links:
-    - label: Buy now
+    - label: Start 14-Day Free Trial
       size: xl
       color: black
-      to: /pricing
+      to: https://app.repo-booster.com
+
+faq:
+  title: Frequently Asked Questions
+  description: Everything you need to know about Repo-Booster and its plans.
+  items:
+    - label: Is this a secure service?
+      content: Yes, Repo-Booster uses the latest security protocols to ensure your data remains safe and protected.
+      defaultOpen: true
+    - label: How can I cancel my subscription?
+      content: You can cancel your subscription anytime from your account settings.
+    - label: How does the free trial work?
+      content: The free plan provides you access to limited features without any commitment.
+    - label: Can I switch plans later?
+      content: Yes, you can upgrade or downgrade your plan at any time based on your needs.
+    - label: Do you offer refunds?
+      content: We offer refunds within 14 days for yearly subscriptions, subject to our refund policy.
+    - label: Do you offer support?
+      content: Yes, all plans include support, but Pro and Enterprise plans have access to 24/7 priority support.
