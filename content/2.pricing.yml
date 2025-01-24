@@ -6,58 +6,63 @@ hero:
   description: Our plans are designed to meet the requirements of both beginners and players. Get the right plan that suits you.
   align: center
 plans:
-  - title: Basic
-    description: A basic plan for individuals.
+  - title: Starter
+    description: Perfect for small websites and blogs
     price:
-      month: $9.9
-      year: $99.9
+      month: $24.9
+      year: $249.9
     align: top
     button:
       label: Get Started
       color: white
     features:
-      - 1 GB Storage
-      - 1 Email Account
-      - 1 Domain
-      - 1 Website
-      - 1 Database
-      - 1 SSL Certificate
-      - 1 Support Ticket
-  - title: Standard
-    description: A standard plan for small teams.
+      - ✓ Content optimization suggestions
+      - ✓ AI-powered SEO analysis
+      - ✓ Monthly site audit
+      - ✓ Basic keyword tracking
+      - ✓ 5 competitor tracking
+      - ✓ Email support
+      - ✓ Basic AI Features
+      - ✓ Limited API Access
+  - title: Pro
+    description: Ideal for growing businesses
     price:
-      month: $19.9
-      year: $199.9
+      month: $49.9
+      year: $499.9 # Save 15%
     highlight: true
     align: top
     button:
       label: Get Started
       color: black
     features:
-      - 10 GB Storage
-      - 10 Email Accounts
-      - 10 Domains
-      - 10 Websites
-      - 10 Databases
-      - 10 SSL Certificates
-      - 10 Support Tickets
-  - title: Premium
-    description: A premium plan for large teams.
+      - ✓ Everything in Starter
+      - ✓ Advanced AI recommendations
+      - ✓ Unlimited keyword tracking
+      - ✓ Weekly site audits
+      - ✓ 15 competitor tracking
+      - ✓ Priority Support
+      - ✓ Custom reporting
+      - ✓ API access
+      - ✓ Custom Training Models
+  - title: Enterprise
+    description: For medium - large organizations
     price:
-      month: $29.9
-      year: $299.9
+      month: $249.9
+      year: $2549 # Save 15%
     align: top
     button:
       label: Get Started
       color: white
     features:
-      - 100 GB Storage
-      - 100 Email Accounts
-      - 100 Domains
-      - 100 Websites
-      - 100 Databases
-      - 100 SSL Certificates
-      - 100 Support Tickets
+      - ✓ Everything in Pro
+      - ✓ 5 - 10 Team Accounts
+      - ✓ Advanced AI recommendations
+      - ✓ 50 competitor tracking
+      - ✓ 24/7 priority support
+      - ✓ Custom integrations
+      - ✓ Dedicated account manager
+      - ✓ Custom reporting
+      - ✓ Custom Training Models
 logos:
   title: Trusted by the world's best
   icons:

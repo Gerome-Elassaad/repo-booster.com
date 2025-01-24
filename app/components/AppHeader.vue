@@ -26,17 +26,13 @@ const links = [{
     </template>
 
     <template #right>
+      <UColorModeButton size="sm" />
       <UButton
-        label="Sign in"
-        color="gray"
-        to="/login"
-      />
-      <UButton
-        label="Sign up"
+        label="Get Started"
         icon="i-heroicons-arrow-right-20-solid"
         trailing
         color="black"
-        to="/signup"
+        to="https://app.repo-booster.com"
         class="hidden lg:flex"
       />
     </template>
